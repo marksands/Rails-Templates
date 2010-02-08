@@ -15,7 +15,7 @@ if yes?("Do you want to use cucumber?")
   gem "rspec", :lib => false, :version => ">=1.2.2"
   gem "rspec-rails", :lib => false, :version => ">=1.2.2"
   gem "webrat", :lib => false, :version => ">=0.4.3"
-  gem "cucumber", :lib => false, :version => ">=0.2.2"
+  gem "cucumber", :lib => false, :version => ">=0.3.0"
   
   generate :cucumber
 elsif yes?("Would you rather just use RSpec?")
